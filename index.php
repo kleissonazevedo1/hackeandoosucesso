@@ -401,6 +401,29 @@ footer {
     color: #aaa;
 }
 
+@media (max-width: 768px) {
+    .cta-final h3 {
+        font-size: 24px;
+    }
+
+    .cta-final p {
+        font-size: 18px;
+    }
+
+    .cta-btn {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+
+    .depoimentos, .ultimos-compradores, .sobre-instrutor {
+        padding: 20px;
+    }
+
+    .depoimento, .comprador {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
 
     </style>
 </head>
@@ -595,6 +618,8 @@ footer {
             </div>
         </div>
     </footer>
+    <img src="instrutor.jpg" alt="Imagem do Instrutor" class="instrutor-img" loading="lazy">
+    <iframe src="https://www.youtube.com/embed/ID_DO_VIDEO" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   
 </body>
